@@ -1,0 +1,28 @@
+{
+  "name": "node-openex",
+  "version": "0.0.1",
+  "description": "openexchangerates.org client API module for nodejs",
+  "main": "lib/openex.js",
+  "scripts": {
+    "test": "mocha -s 1800 -R list test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:danmilon/node-openex.git"
+  },
+  "keywords": [
+    "openexchangerates",
+    "open",
+    "exchange",
+    "rates"
+  ],
+  "dependencies": {
+    "request": "2.10.0"
+  },
+  "devDependencies": {
+    "should": "0.6.3",
+    "mocha": "1.3.0"
+  },
+  "author": "Dan Milon <danmilon@gmail.com>",
+  "license": "MIT"
+}
