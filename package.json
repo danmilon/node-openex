@@ -1,10 +1,10 @@
 {
   "name": "node-openex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "openexchangerates.org client API module for nodejs",
   "main": "lib/openex.js",
   "scripts": {
-    "test": "mocha -s 1800 -R list test"
+    "test": "mocha -t 5000 -s 2000 -R list test"
   },
   "repository": {
     "type": "git",

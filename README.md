@@ -14,6 +14,10 @@ Openex is a simple client for the API provided by [openexchangerates.org](http:/
 var openex = require('openex')
 ```
 
+### openex.app_id
+
+If `openex.app_id` is set, it will be included in the API calls. For example, using https requires a paid app_id. Eg `openex.app_id = 'deadbeef'.
+
 ### openex.latest([options], cb)
 
 Queries the /latest API and then calls function cb(err, res) with the results.
