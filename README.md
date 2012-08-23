@@ -2,6 +2,12 @@
 
 Openex is a simple client for the API provided by [openexchangerates.org](http://openexchangerates.org). Check their [documentation](http://openexchangerates.org/documentation) to see what key/values each API call should return.
 
+## Install
+
+```
+npm install openex
+```
+
 ## Features
 
 * Support for the /latest API
