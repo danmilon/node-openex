@@ -6,7 +6,7 @@ Openex is a simple client for the API provided by [openexchangerates.org](http:/
 
 * Support for the /latest API
 * Support for the /currencies API
-
+* Can provide app_id
 
 ## API
 
