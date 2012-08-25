@@ -1,6 +1,6 @@
 {
-  "name": "node-openex",
-  "version": "0.0.3",
+  "name": "openex",
+  "version": "0.0.4",
   "description": "openexchangerates.org client API module for nodejs",
   "main": "lib/openex.js",
   "scripts": {

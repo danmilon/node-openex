@@ -29,17 +29,20 @@ If `openex.app_id` is set, it will be included in the API calls. For example, us
 Queries the /latest API and then calls function cb(err, res) with the results.
 (disclaimer and license feel unnecessery and are removed from the returned object)
 
-#### options
-
-* `https` Use https when calling the API. Default: false
-
 ### openex.currencies([options], cb)
 
 Queries the /currencies API and then calls function cb(err, res) with the results.
 
-#### options
+### openex.historical(date, [options], cb)
+
+Queries the /historical API with the date provided and calls cb(err, res) with the results
+
+* **date**: instance of Date, or string formatted 'YYYY-mm-dd'. Example: '2011-04-16'
+
+### options
 
 * `https` Use https when calling the API. Default: false
+
 
 ## Example
 
@@ -55,9 +58,15 @@ openex.latest(function (err, res) {
 })
 ```
 
+## Tests
+
+```
+npm test
+```
+
 ## TODO
 
-* Support historical API.
+* Include usage examples
 
 Feedback, pull requests always welcome.
 
