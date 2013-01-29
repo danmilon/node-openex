@@ -1,4 +1,4 @@
-# openex +[![build status](https://secure.travis-ci.org/danmilon/confisto.png)](http://travis-ci.org/danmilon/confisto)
+# openex +[![build status](https://secure.travis-ci.org/danmilon/node-openex.png)](http://travis-ci.org/danmilon/node-openex)
 
 Openex is a simple client for the API provided by [openexchangerates.org](http://openexchangerates.org). Check their [documentation](http://openexchangerates.org/documentation) to see what key/values each API call should return.
 
